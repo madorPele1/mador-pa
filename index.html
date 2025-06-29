@@ -8,8 +8,14 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+    <div id="start-page">
+        <img src="assets/main-title.svg" alt="main-title" class="main-title">
+        <img src="assets/start-button.svg" alt="main-title" id="start-button" onclick="start()">
+        <img src="assets/pink-lanyard.svg" alt="pink-lanyard" class="pink-lanyard"/>
+    </div>
     <div id="blur-div"></div>
     <div id="timeline-page">
+        <img src="assets/home-icon.svg" alt="home-icon" id="home-icon" onclick="backHome()">
         <div class="timeline-title-div">
             <img src="assets/timeline-title.svg" alt="timeline-title" class="timeline-title"/>
         </div>
@@ -34,8 +40,8 @@
                     <img src="assets/timeline/cards/card1.svg" alt="card-img" class="card-img-timeline" id="card-timeline"/>
                     <div id="black-shadow-div-timeline"></div>
                     <img src="assets/back-arrow.svg" alt="back-arrow-timeline" class="back-arrow-timeline" id="back-arrow-timeline" onclick="timelineManager(event)">
-                    <img src="assets/side-arrow.svg" alt="side-arrow" class="side-arrow" id="side-arrow-backwards"/>
-                    <img src="assets/side-arrow.svg" alt="side-arrow" class="side-arrow" id="side-arrow-forwards"/>
+                    <img src="assets/side-arrow.svg" alt="side-arrow" class="side-arrow" id="side-arrow-backwards" onclick="square9Manager(event)"/>
+                    <img src="assets/side-arrow.svg" alt="side-arrow" class="side-arrow" id="side-arrow-forwards" onclick="square9Manager(event)"/>
                 </div>
                 <div id="explanation-text-div">
                     <img src="assets/explanation-text.svg" alt="explanation-text" id="explanation-text"/>
