@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="blur-div"></div>
+    <div id="timeline-page">
+        <div class="timeline-title-div">
+            <img src="assets/timeline-title.svg" alt="timeline-title" class="timeline-title"/>
+        </div>
+        <div class="timeline-main-div">
+            <div class="timeline-div">
+                <div class="square-contaier-up">
+                    <img src="assets/timeline/square5.svg" alt="square1" class="square-timeline" id="square9" onclick="timelineManager(event)"/>
+                    <img src="assets/timeline/square4.svg" alt="square3" class="square-timeline" id="square7" onclick="timelineManager(event)"/>
+                    <img src="assets/timeline/square3.svg" alt="square5" class="square-timeline" id="square5" onclick="timelineManager(event)"/>
+                    <img src="assets/timeline/square2.svg" alt="square7" class="square-timeline" id="square3" onclick="timelineManager(event)"/>
+                    <img src="assets/timeline/square1.svg" alt="square9" class="square-timeline" id="square1" onclick="timelineManager(event)"/>
+                </div>
+                    <img src="assets/arrow-timeline.svg" alt="arrow-timeline" class="arrow-timeline"/>
+                    <div class="square-contaier-down">
+                        <img src="assets/timeline/square9.svg" alt="square2" class="square-timeline" id="square8" onclick="timelineManager(event)"/>
+                        <img src="assets/timeline/square8.svg" alt="square4" class="square-timeline" id="square6" onclick="timelineManager(event)"/>
+                        <img src="assets/timeline/square7.svg" alt="square6" class="square-timeline" id="square4" onclick="timelineManager(event)"/>
+                        <img src="assets/timeline/square6.svg" alt="square8" class="square-timeline" id="square2" onclick="timelineManager(event)"/>
+                    </div>
+                </div>
+                <div id="card-container-timeline">
+                    <img src="assets/timeline/cards/card1.svg" alt="card-img" class="card-img-timeline" id="card-timeline"/>
+                    <div id="black-shadow-div-timeline"></div>
+                    <img src="assets/back-arrow.svg" alt="back-arrow-timeline" class="back-arrow-timeline" id="back-arrow-timeline" onclick="timelineManager(event)">
+                    <img src="assets/side-arrow.svg" alt="side-arrow" class="side-arrow" id="side-arrow-backwards"/>
+                    <img src="assets/side-arrow.svg" alt="side-arrow" class="side-arrow" id="side-arrow-forwards"/>
+                </div>
+                <div id="explanation-text-div">
+                    <img src="assets/explanation-text.svg" alt="explanation-text" id="explanation-text"/>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
